@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Alamat IPv4 </title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00cba9" fill-opacity="1" d="M0,256L34.3,261.3C68.6,267,137,277,206,256C274.3,235,343,181,411,176C480,171,549,213,617,202.7C685.7,192,754,128,823,133.3C891.4,139,960,213,1029,229.3C1097.1,245,1166,203,1234,181.3C1302.9,160,1371,160,1406,160L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,9,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+</head>
+<body style="background-color: #eaffea;">
+    <h3 style="color: #6c9c5b;">PENGENALAN
+    </h3>
+
+    <p>IPV4</b> (atau IPv4) adalah versi keempat dari Protokol Internet (IP).<br>Ini adalah salah satu protokol inti dari metode 
+        internetworking berbasis standar di Internet dan jaringan packet-switched lainnya. IPv4 adalah versi pertama yang digunakan
+        untuk produksi di ARPANET pada tahun 1983. IPv4 masih merutekan sebagian besar lalu lintas Internet saat ini,[1] meskipun
+        penerapan protokol penerus, IPv6 sedang berlangsung. IPv4 dijelaskan dalam publikasi IETF RFC 791 (September 1981),
+        menggantikan definisi sebelumnya (RFC 760, Januari 1980).
+
+    <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2zVp7so4pdExIBPrT5SKcogCveiBqc3iQUw&usqp=CAU"">
+    <p><h3 style="color: #6c9c5b;">KEGUNAAN</h3>
+    Kegunaan Protokol internet adalah protokol yang mendefinisikan dan memungkinkan antarjaringan pada lapisan internet dari Internet Protocol Suite. Intinya itu membentuk Internet. Ini menggunakan sistem pengalamatan logis dan melakukan routing, yang merupakan penerusan paket dari host sumber ke router berikutnya yang satu hop lebih dekat ke host tujuan yang dituju di jaringan lain.
+        IPv4 adalah protokol tanpa koneksi, dan beroperasi pada model pengiriman upaya terbaik, dalam hal itu tidak menjamin pengiriman, juga tidak menjamin urutan yang tepat atau menghindari pengiriman duplikat. Aspek-aspek ini, termasuk integritas data, ditangani oleh protokol transportasi lapisan atas, seperti Transmission Control Protocol (TCP).
+    <h3 style="color: #6c9c5b;">JENIS ALAMAT IP ADDRESS</h3>
+    <p>Berdasarkan jenis Alamatnya, IPv4 dapat dibagi menjadi 3 bagian, yaitu:
+
+        <li>Alamat Unicast</li>
+        antarmuka jaringan yang dihubungkan ke sebuah Jaringan Internal atau disebut dengan internetwork. Unicast dapat dimanfaatkan dalam komunikasi Point to Point atau satu ke satu. Jika pada suatu instansi tidak terkoneksi ke internet, maka semua ruang kelas alamat pada unicast dapat digunakan. Jika terkoneksi dengan internet yang terhubung ke router, maka alamat yang dapat digunakan adalah 2 jenis yaitu Public Address dan Private Address.
+        <li>Alamat Multicast</li>
+        alamat yang dapat digunakan untuk menyampaikan satu paket untuk banyak penerima. Sebuah paket yang ditujukan ke suatu alamat multicast akan diteruskan oleh router ke subjaringan yang sedang berada dalam kondisi listening. Dengan cara multicast ini, akan lebih efisien untuk mengirimkan paket data. Untuk menggunakan sistem multicast, Anda dapat menggunakan IpV4 kelas D yaitu 224.0.0.0/4.
+        <li>Alamat Broadcast</li>
+        digunakan untuk menyampaikan paket data secara satu untuk semua. Jika host mengirimkan paket data dengan tujuan broadcast, maka semua host yang ada dalam segment tersebut akan menerima paket yang dikirim dan segera memprosesnya. Perbedaan dengan unicast dan multicast adalah ip broadcast hanya dapat digunakan sebagai alamat tujuan, tidak dapat digunakan sebagai alamat sumber.
+        Ada 4 jenis dalam broadcast ini, yaitu Network, subnet, all subnet directed dan limited broadcast. Pada setiap jenis alamat tersebut, paket ip dialamatkan kepada lapisan antarmuka jaringan. Sebagai contoh, jaringan Ethernet semua paket broadcast IP akan dikirimkan ke alamat broadcast Ethernet yakni 0xFF-FF-FF-FF-FF-FF.
+
+        <h3 style="color: #6c9c5b;">KELAS IP ADDRESS</h3>
+        Berdasarkan kelasnya, IPv4 dapat dikelompokkan menjadi 5 kelas, yaitu:
+
+        <li> A (1–126) alamat ini digunakan dalam skala besar.
+        <p>Format yang digunakan: 0nnnnnnn.hhhhhhhh.hhhhhhhh.hhhhhhhh. Pada Alamat IP kelas A mempunyai Bit pertama dengan nilai : 0. Panjang suatu Network ID yang dimiliki alamat ip kelas A adalah : 8 bit. Alamat IP kelas A memiliki Panjang sebuah Host ID adalah : 24 bit. Nilai Byte pertama pada alamat IP kelas A adalah : 0 s/d 127
+        Rangkaian Range IP Pada kelas A bisa di contohkan seperti berikut ini : 1.165.2.5 sampai 126.139.0.7. Kelas A mempunyai Jumlah IP sebanyak: 16.777.214 IP address pada stiap bagiannya pada kelas A
+        <li>Kelas B (128–191) digunakan skala besar maupun menengah
+        <p>Format yang digunakan: 10nnnnnn.nnnnnnnn.hhhhhhhh.hhhhhhhh. Pada Alamat IP kelas B mempunyai Bit pertama dengan nilai : 10. Panjang suatu Network ID yang dimiliki alamat ip kelas B adalah : 16 bit. Alamat IP kelas B memiliki Panjang sebuah Host ID adalah : 16 bit. Nilai Byte pertama pada alamat IP kelas A adalah : 128 s/d 191
+        Rangkaian Range IP Pada kelas B bisa di contohkan seperti berikut ini : 128.130.3.2 sampai 191.145.5.4. Kelas A mempunyai Jumlah IP sebanyak: 65.535 IP address pada stiap bagiannya pada kelas B
+        <li> Kelas C (192-223) jaringan skala kecil
+        <p>Format yang digunakan: 110nnnnn.nnnnnnnn.nnnnnnnn.hhhhhhhh. Pada Alamat IP kelas C mempunyai 3 Bit pertama dengan nilai : 110. Panjang suatu Network ID yang dimiliki alamat ip kelas C adalah : 24 bit. Alamat IP kelas C memiliki Panjang sebuah Host ID adalah : 8 bit. Nilai Byte pertama pada alamat IP kelas C adalah : 192 s/d 223
+        Rangkaian Range IP Pada kelas C bisa di contohkan seperti berikut ini : 192.168.2.15 sampai 223.168.5.9. Kelas C mempunyai Jumlah IP sebanyak: 254 IP address pada stiap bagiannya pada kelas C
+        <li> Kelas D (224-239) multicast
+        <p>Pada IP Address yang memiliki tipe kelas D ini, tujuan awalnya memang diperuntukkan pada multicasting, kelas ini juga tidak lagi dilakukan pembahasan mengenai masalah netid dan hostidnya. pada kelas D ini memiliki jumlah pada 4 bit pertamanya dengan nilai 1110, jadi sudah bisa ditafsirkan jika byte pertama pada kelas D ini berkisar pada angka 224 s/d 247 4. Bit Pertama yang dimiliki kelas D adalah : 1110
+        Jumlah Range yang dimiliki kelas D ini dimulai dengan nilai : 224 – 247
+        <li>Kelas E (240-255) reservasi<p> biasanya digunakan untuk eksperiment
+</body>
